@@ -50,8 +50,6 @@ namespace CodeMashTetrisTournament.Controllers
                 try
                 {
                     HighScore highscore = new HighScore();
-                    highscore.Id = item.System.Id;
-                    highscore.Rank = i + ".";
                     highscore.Name = item.System.Name;
                     highscore.Score = item.GetNumber("score");
                     _highscores.Add(highscore);

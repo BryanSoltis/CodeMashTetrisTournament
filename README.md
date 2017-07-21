@@ -7,7 +7,7 @@ This project was created to display scores from a Tetris Tourament hosted during
 In order to run this project, you will need to complete the following:
 
  1. Create the following Kentico Cloud content types / items. The referenced files detail all the fields required. 
-- Blog post ([/CodeMashTetrisTournament/Models/HighScore.cs](/CodeMashTetrisTournament/Models/HighScore.cs))
+- HighScore ([/CodeMashTetrisTournament/Models/HighScore.cs](/CodeMashTetrisTournament/Models/HighScore.cs))
 
 2. Update the KenticoCloudProjectID value in the web.config AppSettings section.
 

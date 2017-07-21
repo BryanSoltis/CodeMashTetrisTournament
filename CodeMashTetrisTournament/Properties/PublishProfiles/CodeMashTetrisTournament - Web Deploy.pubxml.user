@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4oV5Q6/tQECKLTwbGnBJVQAAAAACAAAAAAADZgAAwAAAABAAAAD7TQ+ZIUKccU3KcGaiQwFYAAAAAASAAACgAAAAEAAAABJXyoaHXEOH8blhmsEwPR6AAAAARxbfTPvpwFwvWNGcc6SZbZYR7a9Glf9ImM35C4u7/OXrNa2IlVlygIv2a9wpjs9NH8aSZldJSNY9G4zp7u+nfx84BS1ExscHhtRFBexFGJbNtIc/rAeFI3R/ZBJDd2vNLhlupB1g4qhYSadDZgvAh1DyEhPcV7BU0eKDsv62gAgUAAAABAyak5TDiMWY5rrwTWMVrK7NgNo=</EncryptedPassword>
+  </PropertyGroup>
+</Project>

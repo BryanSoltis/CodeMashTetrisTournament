@@ -1,0 +1,59 @@
+﻿@{
+    Layout = null;
+}
+<html>
+<head>
+    <title>CodeMash Tetris Tournament</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/Styles/main.css" rel="stylesheet" />
+</head>
+<body style="background-color:#f2f2f3;">
+    <div class="container">
+        <div class="row" style="background-color:#0C83A8;">
+            <div class="col-2" style="height: 200px;line-height: 200px;vertical-align: middle;">
+                <img src="~/Images/Tetris.png" alt="Tetris Tournnament" class="headerimage" />
+            </div>
+            <div class="col-10" style="height: 200px;line-height: 200px;vertical-align: middle; color:#ffffff; font-size:50px;padding-top:0;">
+                CodeMash Tetris Tournament
+            </div>
+        </div>
+        <div class="row" style="background-color: #e69f39;">
+
+            <div class="col-1-4" style="background-color:#e69f39; text-align:center;padding:50px; color:#FFFFFF;">
+                <div>
+                    <a href="http://codemash.org" target="_blank"><img src="~/Images/CodeMash.png" alt="CodeMash" /></a>
+                </div>
+                <div>
+                    <a href="http://kenticocloud.com" target="_blank"><img src="~/Images/KenticoLogoFlower.png" alt="Kentico" class="headerimage" /></a>
+                </div>
+                <div style="text-align:left;">
+                    <h2>Rules</h2>
+                    <ul style="font-size:larger;">
+                        <li>"B" mode</li>
+                        <li>Highest Score Wins</li>
+                        <li>Prizes to top 5</li>
+                    </ul>
+                    <h2>Prizes</h2>
+                    <ul>
+                        <li>1st - $25 Best Buy Gift Card + 1 Free Beer!</li>
+                        <li>2nd - $15 Best Buy Gift Card + 1 Free Beer!</li>
+                        <li>3rd - 1 free beer!</li>
+                        <li>4th - 1 free beer!</li>
+                        <li>5th - 1 free beer!</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-2-4" style="background-color:#47cdbf; color:#f2f2f3; padding:0 75px;">
+                <div id="content"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js"></script>
+    <script src="@Url.Content("~/Scripts/data.jsx")"></script>
+</body>
+</html>
